@@ -35,4 +35,4 @@ jobs:
 
     - name: Run pytest
       run: |
-        python -m pytest test_main.py  # 根據你的專案需求修改
+        python -m pytest test_main.py test_api_with_mysql.py  # 根據你的專案需求修改
