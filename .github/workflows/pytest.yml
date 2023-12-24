@@ -22,4 +22,4 @@ jobs:
 
     - name: Run pytest
       run: |
-        python -m pytest
+        pytest test_api_with_pytest.py  # 根據你的專案需求修改
